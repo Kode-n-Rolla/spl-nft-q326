@@ -1,72 +1,217 @@
-# scripts-solana
+# Solana SPL Token and NFT Practice
 
-Scripts for creating SPL tokens and NFTs on Solana devnet.
+## Overview
 
----
+This repository contains TypeScript scripts for practicing Solana devnet token and NFT operations.
 
-## Setup
+Completed tasks:
 
-### 1. Add your wallet
+- Mint and transfer a custom SPL token.
+- Mint an NFT using Metaplex Core.
+- Update the NFT name and metadata as the update authority.
 
-Place your devnet wallet keypair file at the project root:
+Cluster: Devnet
 
+## Wallet
+
+Public address:
+
+```text
+HBFKdPmohanDBA7z8yw4ELGNF5XQapnEwvC3F5XzRcu2
 ```
-root/
-└── devnet-wallet.json   ← here
-```
 
-It should be a JSON array of numbers, e.g. `[174, 23, ...]`.
+## 1. SPL Token Mint and Transfer
 
-### 2. Install dependencies
+### 1.1 Create SPL Token Mint
+
+Command:
 
 ```bash
-npm install
+npm run spl:init
 ```
+
+Mint address:
+
+```text
+ALs1JR47hDubCQPx3DgdRNshGvhQ8uJ9EEJCg3mF4akB
+```
+
+Transaction:
+
+```text
+2ou9rhh7yahNx7J3n79KcjKxbJhRJ2T8i7tTwfuNL8oyVUTh1MYJfze3UJtesyvokxX3DUe5Bn83LoziZqtqLbVE
+```
+
+Explorer:
+
+[Transaction](https://explorer.solana.com/tx/2ou9rhh7yahNx7J3n79KcjKxbJhRJ2T8i7tTwfuNL8oyVUTh1MYJfze3UJtesyvokxX3DUe5Bn83LoziZqtqLbVE?cluster=devnet)
+
+[Token](https://explorer.solana.com/address/ALs1JR47hDubCQPx3DgdRNshGvhQ8uJ9EEJCg3mF4akB?cluster=devnet)
+
+Screenshots:
+
+![SPL token mint tx](./screenshots/spl-token-mint-tx.png)
+
+![SPL token mint](./screenshots/spl-token-mint.png)
+
+### 1.2 Mint Tokens
+
+Command:
 
 ```bash
-npm install --save-dev @types/node ts-node typescript
+npm run spl:mint
 ```
 
-### 3. Add your image
+Associated token account:
 
-Place your image at the project root.
-
-```
-root/
-└── image.jpeg   ← here
+```text
+TODO: paste ATA address
 ```
 
----
+Transaction:
 
-> Before running the scripts, go through these docs:
-> - [Solana token docs](https://solana.com/docs/tokens) — mint accounts, token accounts, and ATAs
-> - [Solana Kit](https://www.solanakit.com/) — the JS SDK used for building and sending transactions
-> - [Metaplex Token Metadata](https://www.metaplex.com/docs/smart-contracts/token-metadata) — attaching metadata to SPL tokens
-> - [Metaplex Core](https://www.metaplex.com/docs/smart-contracts/core) — the NFT standard used in the NFT scripts
+```text
+TODO: paste transaction signature
+```
 
-## SPL Token
+Explorer:
 
-Uses **@solana/kit** and **@solana-program/token** for transactions, and **mpl-token-metadata** via UMI for on-chain metadata.
+```text
+TODO: paste Solana Explorer devnet transaction link
+```
 
-| Script | Command | What it does |
-|---|---|---|
-| `spl_init.ts` | `npm run spl:init` | Creates a new mint account |
-| `spl_metadata.ts` | `npm run spl:metadata` | Attaches a name, symbol, and URI to the mint |
-| `spl_mint.ts` | `npm run spl:mint` | Creates your associated token account and mints tokens into it |
-| `spl_transfer.ts` | `npm run spl:transfer` | Sends tokens to another wallet i.e ata to ata |
+Screenshot:
 
-Run them in order. Each script logs the addresses/signatures you'll need to paste into the next one.
+![SPL token mint-to](./screenshots/spl-token-mint-to.png)
 
----
+### 1.3 Transfer Tokens
 
-## NFT
+Command:
 
-Uses **@solana/kit** and **mpl-core** via UMI. Images and metadata are stored on Irys (decentralized storage).
+```bash
+npm run spl:transfer
+```
 
-| Script | Command | What it does |
-|---|---|---|
-| `nft_image.ts` | `npm run nft:image` | Uploads your image to Irys, logs the image URI |
-| `nft_metadata.ts` | `npm run nft:metadata` | Builds the metadata JSON and uploads it, logs the metadata URI |
-| `nft_mint.ts` | `npm run nft:mint` | Mints the NFT on-chain using the metadata URI |
+Recipient:
 
-Run them in order. Paste the URI logged by each step into the next script before running it.
+```text
+TODO: paste recipient wallet address
+```
+
+Recipient associated token account:
+
+```text
+TODO: paste recipient ATA address
+```
+
+Transaction:
+
+```text
+TODO: paste transaction signature
+```
+
+Explorer:
+
+```text
+TODO: paste Solana Explorer devnet transaction link
+```
+
+Screenshot:
+
+![SPL token transfer](./screenshots/spl-token-transfer.png)
+
+## 2. MPL Core NFT Mint
+
+Image URI:
+
+```text
+TODO: paste image URI
+```
+
+Metadata URI:
+
+```text
+TODO: paste metadata URI
+```
+
+Asset address:
+
+```text
+TODO: paste MPL Core asset address
+```
+
+Transaction:
+
+```text
+TODO: paste transaction signature
+```
+
+Explorer:
+
+```text
+TODO: paste Solana Explorer devnet asset link
+```
+
+Screenshot:
+
+![MPL Core NFT mint](./screenshots/mpl-core-nft-mint.png)
+
+## 3. NFT Metadata Update
+
+Old name:
+
+```text
+TODO: paste old NFT name
+```
+
+New name:
+
+```text
+TODO: paste updated NFT name
+```
+
+Old metadata URI:
+
+```text
+TODO: paste old metadata URI
+```
+
+New metadata URI:
+
+```text
+TODO: paste updated metadata URI
+```
+
+Transaction:
+
+```text
+TODO: paste transaction signature
+```
+
+Explorer:
+
+```text
+TODO: paste Solana Explorer devnet transaction link
+```
+
+Screenshot:
+
+![MPL Core NFT update](./screenshots/mpl-core-nft-update.png)
+
+## Tests
+
+Command:
+
+```bash
+npx tsc --noEmit
+```
+
+Result:
+
+```text
+TODO: paste test result summary
+```
+
+Screenshot:
+
+![Tests passing](./screenshots/tests-passing.png)
