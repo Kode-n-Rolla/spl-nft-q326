@@ -191,7 +191,7 @@ npx tsc --noEmit
 Result:
 
 ```text
-TODO: paste test result summary
+TypeScript check passed with no errors
 ```
 
 Screenshot:
