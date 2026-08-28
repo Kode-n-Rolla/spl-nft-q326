@@ -44,14 +44,14 @@ Transaction:
 
 Explorer:
 
-[Transaction](https://explorer.solana.com/tx/2ou9rhh7yahNx7J3n79KcjKxbJhRJ2T8i7tTwfuNL8oyVUTh1MYJfze3UJtesyvokxX3DUe5Bn83LoziZqtqLbVE?cluster=devnet)
-
-[Token](https://explorer.solana.com/address/ALs1JR47hDubCQPx3DgdRNshGvhQ8uJ9EEJCg3mF4akB?cluster=devnet)
+[Transaction](https://explorer.solana.com/tx/2ou9rhh7yahNx7J3n79KcjKxbJhRJ2T8i7tTwfuNL8oyVUTh1MYJfze3UJtesyvokxX3DUe5Bn83LoziZqtqLbVE?cluster=devnet), [Token](https://explorer.solana.com/address/ALs1JR47hDubCQPx3DgdRNshGvhQ8uJ9EEJCg3mF4akB?cluster=devnet)
 
 Screenshots:
 
+1. Transaction:
 ![SPL token mint tx](./screenshots/spl-token-mint-tx.png)
 
+2. Token:
 ![SPL token mint](./screenshots/spl-token-mint.png)
 
 ### 1.2 Mint Tokens
@@ -65,24 +65,26 @@ npm run spl:mint
 Associated token account:
 
 ```text
-TODO: paste ATA address
+E92HzsQ2JGQdDRQHvkWahkL3w2uNcFc72WdSCT25umVz
 ```
 
 Transaction:
 
 ```text
-TODO: paste transaction signature
+3YbKBQYUEfYQvDKxB4MPnzF3k22N3ajuVvPEmsZTS9a57rxaJ7RuqCykS8akEdZcN4Kp146y9gaEdqorkFMahm9v
 ```
 
 Explorer:
 
-```text
-TODO: paste Solana Explorer devnet transaction link
-```
+[ATA](https://explorer.solana.com/address/E92HzsQ2JGQdDRQHvkWahkL3w2uNcFc72WdSCT25umVz?cluster=devnet), [Transaction](https://explorer.solana.com/tx/3YbKBQYUEfYQvDKxB4MPnzF3k22N3ajuVvPEmsZTS9a57rxaJ7RuqCykS8akEdZcN4Kp146y9gaEdqorkFMahm9v?cluster=devnet)
 
 Screenshot:
 
-![SPL token mint-to](./screenshots/spl-token-mint-to.png)
+1. ATA:
+![ATA](./screenshots/ata.png)
+
+1. Transaction
+![Transaction](./screenshots/spl-token-tx.png)
 
 ### 1.3 Transfer Tokens
 
