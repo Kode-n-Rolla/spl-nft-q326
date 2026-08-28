@@ -97,30 +97,31 @@ npm run spl:transfer
 Recipient:
 
 ```text
-TODO: paste recipient wallet address
+9EUd4VNcjMAysd7zQk3Q1a4tb28BYndLNBAQDiYnHJ64
 ```
 
 Recipient associated token account:
 
 ```text
-TODO: paste recipient ATA address
+GXix2FiaFWk2feQ9hnHwYeGfTdKumL4ir7q9McbiPUpD
 ```
 
 Transaction:
 
 ```text
-TODO: paste transaction signature
+5DAaZSzgg1tEDro49jTjWSjp7cTNwnVmQUcRCtDVvPAykGo2ts7cU3Zu1YHebTkcFNoJUqbS5vSK8Em4qQ8gSytc
 ```
 
 Explorer:
+[Transaction](https://explorer.solana.com/tx/5DAaZSzgg1tEDro49jTjWSjp7cTNwnVmQUcRCtDVvPAykGo2ts7cU3Zu1YHebTkcFNoJUqbS5vSK8Em4qQ8gSytc?cluster=devnet), [Receiver](https://explorer.solana.com/tx/5DAaZSzgg1tEDro49jTjWSjp7cTNwnVmQUcRCtDVvPAykGo2ts7cU3Zu1YHebTkcFNoJUqbS5vSK8Em4qQ8gSytc?cluster=devnet)
 
-```text
-TODO: paste Solana Explorer devnet transaction link
-```
 
 Screenshot:
+Token Transfer:
+![Transfer Transaction](./screenshots/spl-token-transfer.png)
 
-![SPL token transfer](./screenshots/spl-token-transfer.png)
+Token received:
+![SPL token received](./screenshots/token-received.png)
 
 ## 2. MPL Core NFT Mint
 
