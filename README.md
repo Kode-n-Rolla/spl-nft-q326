@@ -113,7 +113,7 @@ Transaction:
 ```
 
 #### Explorer:
-[Transaction](https://explorer.solana.com/tx/5DAaZSzgg1tEDro49jTjWSjp7cTNwnVmQUcRCtDVvPAykGo2ts7cU3Zu1YHebTkcFNoJUqbS5vSK8Em4qQ8gSytc?cluster=devnet), [Receiver](https://explorer.solana.com/tx/5DAaZSzgg1tEDro49jTjWSjp7cTNwnVmQUcRCtDVvPAykGo2ts7cU3Zu1YHebTkcFNoJUqbS5vSK8Em4qQ8gSytc?cluster=devnet)
+[Transaction](https://explorer.solana.com/tx/5DAaZSzgg1tEDro49jTjWSjp7cTNwnVmQUcRCtDVvPAykGo2ts7cU3Zu1YHebTkcFNoJUqbS5vSK8Em4qQ8gSytc?cluster=devnet), [Receiver](https://explorer.solana.com/address/9EUd4VNcjMAysd7zQk3Q1a4tb28BYndLNBAQDiYnHJ64?cluster=devnet), [ATA Receiver](https://explorer.solana.com/address/GXix2FiaFWk2feQ9hnHwYeGfTdKumL4ir7q9McbiPUpD?cluster=devnet)
 
 
 #### Screenshots:
@@ -134,7 +134,7 @@ Transaction:
 ![Metadata URI](./screenshots/nft-metadata.png)
 
 #### Explorer:
-[Asset address](https://explorer.solana.com/addres64P5QgcPxibMg4n9p9TCaqJN36nGbMSeLwTVw7j5kFuvs/9EUd4VNcjMAysd7zQk3Q1a4tb28BYndLNBAQDiYnHJ64?cluster=devnet), [Transaction](https://explorer.solana.com/addres64P5QgcPxibMg4n9p9TCaqJN36nGbMSeLwTVw7j5kFuvs/9EUd4VNcjMAysd7zQk3Q1a4tb28BYndLNBAQDiYnHJ64?cluster=devnet)
+[Asset address](https://explorer.solana.com/address/64P5QgcPxibMg4n9p9TCaqJN36nGbMSeLwTVw7j5kFuv?cluster=devnet), [Transaction](https://explorer.solana.com/tx/LZP4NPFjXPn7n3W8EGreF1sd1atTzZkV78vthhJyp5ESmuZbyj6Ae4Vs4fGcarFJ46WYpPuP1TbDVfDsQNLLU1r?cluster=devnet)
 
 #### Screenshots:
 
@@ -149,42 +149,36 @@ Transaction:
 Old name:
 
 ```text
-TODO: paste old NFT name
+Solana NFT practice
 ```
 
 New name:
 
 ```text
-TODO: paste updated NFT name
+Updated Solana NFT practice
 ```
 
-Old metadata URI:
-
+Old description:
 ```text
-TODO: paste old metadata URI
+Practice from Turbin3 session. How to add NFT with Metaplex Core.
 ```
 
-New metadata URI:
-
+New description
 ```text
-TODO: paste updated metadata URI
+Updated description and Practice from Turbin3 session. How to update NFT metadata.
 ```
 
-Transaction:
+[Old metadata URI](https://gateway.irys.xyz/2oXLTuRK36EKRmhZSPJ77MLG1uUbJsdUdgXKXoR1gz5o), [New metadata URI](https://gateway.irys.xyz/4Lv6W9ndzazvN3qvRyZAHock8GHsM5FsJ1n22s8NanP6)
 
-```text
-TODO: paste transaction signature
-```
+#### Explorer:
 
-Explorer:
+[Transaction](https://explorer.solana.com/tx/3bv9CxfojNFMCgjz6QX8bqoAHkQNXLMo6ig9Kgco7GaXtaEXBCBkW2ZuRoZoVcV1NvrZrLaT3LehmYkqY9U6CYB3?cluster=devnet), [Asset](https://explorer.solana.com/address/64P5QgcPxibMg4n9p9TCaqJN36nGbMSeLwTVw7j5kFuv?cluster=devnet)
 
-```text
-TODO: paste Solana Explorer devnet transaction link
-```
 
-Screenshot:
+#### Screenshot:
 
 ![MPL Core NFT update](./screenshots/mpl-core-nft-update.png)
+
 
 ## Tests
 

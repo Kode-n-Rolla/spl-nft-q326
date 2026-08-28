@@ -30,8 +30,8 @@ umi.use(signerIdentity(signer));
     //json scheme : https://www.metaplex.com/docs/smart-contracts/core/json-schema
     //change the metadata
     const metadata = {
-      name: "Solana NFT practice",
-      description: "Practice from Turbin3 session. How to add NFT with Metaplex Core.",
+      name: "Updated Solana NFT practice",
+      description: "Updated description and Practice from Turbin3 session. How to update NFT metadata.",
       image,
       attributes: [
         {
