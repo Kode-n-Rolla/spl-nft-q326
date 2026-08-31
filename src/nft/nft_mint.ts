@@ -36,6 +36,6 @@ umi.use(mplCore());
 
     console.log(`signature ${signature} , asset : ${asset.publicKey}`);
   } catch (e) {
-    console.log(`errior ${e}`);
+    console.log(`error ${e}`);
   }
 })();
